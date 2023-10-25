@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+}
+
+.lets_help {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    background-image: url("images/donation13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section_title {
+    color: #121212;
+    text-align: center;
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+.section_description {
+    color: #707070;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    width: 691px;
+    text-align: center;
+}
+
+.first_description {
+    color: #FFF;
+}
+
+.primary_button {
+    padding: 20px 50px;
+    border: 0;
+    border-radius: 5px;
+    background: #FF5959;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+}
+
+.primary_button:hover {
+    background: #f86b29;
+    cursor: pointer;
+}
+
+/* 2nd Section Style */
+.donate_today {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* border: 1px solid aqua; */
+    margin: 130px 0px;
+}
+
+.amount {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #FAFAFA;
+    width: 135px;
+    height: 123px;
+
+    color: #707070;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.red_box {
+    border: 2px solid #FF5959;
+    background: #FEE;
+    color: #FF5959;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.other_amount {
+    color: #B3B3B3;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+hr{
+    margin-top: -10px;
+    color: #DADADA;
+    width: 765px;
+    margin-bottom: 10px;
+}
