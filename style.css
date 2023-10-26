@@ -110,9 +110,97 @@ h1 {
     font-weight: 400;
     margin-top: 40px;
 }
-hr{
+
+hr {
     margin-top: -10px;
     color: #DADADA;
     width: 765px;
     margin-bottom: 10px;
+}
+
+/* Our Donate Section */
+.our_donate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.big_box_container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.big_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 5px;
+    background: rgba(79, 157, 166, 0.10);
+    width: 300px;
+    height: 300px;
+    padding: 25px;
+}
+
+.big_box_title {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #121212;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.big_box_description{
+    text-align: left;
+    width: auto;
+}
+.our_donate_description{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.big_box2{
+    background: rgba(255, 89, 89, 0.10);
+}
+.big_box3{
+    background: #FFF4D6;
+}
+
+/* Thier Lives Section Style */
+.their_lives{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    gap: 50px;
+}
+.their_lives_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 40%;
+    gap: 20px;
+    align-items: flex-start;
+    /* border: 1px solid magenta; */
+}
+.their_lives_image_cont{
+    width: 40%;
+    margin: auto 0;
+}
+.their_lives_img{
+    width: 100%;
+}
+.their_lives_title{
+    text-align: left;
+}
+
+.their_lives_description{
+    width: auto;
+    text-align: left;
+}
+.their_lives_content button{
+    margin-top: 10px;
 }
