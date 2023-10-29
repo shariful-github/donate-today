@@ -270,8 +270,32 @@ input {
     width: 809px;
     height: 200px;
     background: #FFF4D6;
+    margin-top: 30px;
 }
 
-.email_button_container{
+.email_button_container {
     display: flex;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--default-black, #0B0D17);
+    height: 177px;
+}
+
+.footer_title {
+    color: #FF5959;
+    font-family: Lobster;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.footer_subtitle {
+    color: var(--text-gray-300, #D9DBE1);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
 }

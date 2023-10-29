@@ -1,38 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
-        .their_lives{
-            display: flex;
-            justify-content: center;
-            gap: 10%;
-        }
-        .their_lives_image_cont{
-            width: 30%;
-            border: 1px solid blue;
-        }
-        .their_lives_content{
-            width: 30%;
-            border: 1px solid red;
-        }
-        .their_lives_img{
-            width: 100%;
-        }
-    </style>
+<style>
+    
+  .container {
+    display: table;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid greenyellow;
+  }
+
+  .centered {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+</style>
 </head>
 <body>
-
-<section class="their_lives">
-    <div class="their_lives_image_cont side-by-side">
-        <img class="their_lives_img" src="images/donation8.jpg" alt="">
-    </div>
-    <div class="their_lives_content">
-        <h2 class="section_title their_lives_title">Their lives depend on your donation</h2>
-        <p class="section_description their_lives_description">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo populo animal noluisse, enim</p>
-        <p class="section_description their_lives_description">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset.</p>
-        <button class="primary_button">How to Contribute?</button>
-    </div>
-</section>
-
+<div class="container">
+  <div class="centered">
+    <!-- Your content goes here -->
+    <p>This is vertically centered.</p>
+    <p>good morning</p>
+  </div>
+</div>
 </body>
 </html>
